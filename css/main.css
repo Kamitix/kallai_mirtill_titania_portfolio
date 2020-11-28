@@ -1,0 +1,152 @@
+body{
+	color: white;
+	background-color: rgb(24,24,24);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+@font-face {
+	font-family: modelica;
+	src: url(modelica.ttf);
+}
+
+@font-face {
+	font-family: modelicavekony;
+	src: url(modelicavekony.ttf);
+}
+
+.navigacio{
+	width: 90%;
+	background-color: rgb(24,24,24);
+	text-align: center;
+	
+}
+
+.logo{
+	margin-top: 4vw;
+	margin-bottom: 5vw;
+	height: 9vw;
+}
+
+.gombok{
+	text-decoration: none;
+	font-family: modelica;
+	color: white;
+	font-size: 3vw;
+	padding-right: 1.5vw;
+	padding-left: 1.5vw;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
+}
+
+.gombok:hover{
+	text-shadow: 0 0 3px white, 0 0 5px white;
+}
+
+table {
+	width: 90%;
+}
+
+.kepek {
+	height: 30vw;
+}
+
+.hattertak {
+	left: 0;
+	display: none;
+	background-size: cover;
+	height: 100%;
+	z-index: 2;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+
+.kepnev {
+	font-family: modelica;
+	padding-bottom: 3vw;
+	font-size: 1.5vw;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+
+.peldakep {
+	height: 20vw;
+}
+
+.tablarolam {
+	width: 40%;
+	font-family: modelicavekony;
+	font-size: 1vw;
+	text-align: center;
+}
+
+.megbizastipusnev {
+	font-family: modelica;
+	font-size: 2vw;
+	height: 4vw;
+	vertical-align: top;
+}
+
+.arlista {
+	font-family: modelicavekony;
+	font-size: 1vw;
+}
+
+.cyan {
+	color: rgb(0,241,255);
+}
+
+.magenta{
+	color: rgb(249,0,128);
+}
+
+.icon {
+	height: 5vw;
+}
+
+.en {
+	height: 35vw;
+}
+
+.cucc {
+	width: 20vw;
+	background-image: url('cuccli.png');
+	text-align: center;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	font-size: 2vw;
+
+}
+
+.jobbra {
+	text-align: right;
+	position: relative;
+	width: 1px;
+}
+
+.jobbra:hover .hattertak{
+	display: inline;
+}
+
+.kozep {
+	width: 1px;
+	position: relative;
+}
+
+.kozep:hover .hattertak{
+	display: inline;
+}
+
+.balra {
+	text-align: left;
+	position: relative;
+	width: 1px;
+}
+
+.balra:hover .hattertak{
+	display: inline;
+}
